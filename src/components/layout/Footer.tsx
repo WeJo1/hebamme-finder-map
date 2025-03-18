@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="font-serif text-primary text-xl font-bold tracking-tight">
-              Hebammen<span className="text-accent font-normal">Finder</span>
+            <Link to="/" className="font-serif text-primary text-xl font-semibold tracking-normal">
+              Hebammen<span className="text-accent font-normal">Campus</span>
             </Link>
             <p className="mt-4 text-muted-foreground max-w-md">
               Die Plattform, die Hebammen und Studierende zusammenbringt. Finden Sie eine qualifizierte Praktikumsleiterin in Ihrer Nähe.
@@ -72,7 +72,7 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} HebammenFinder. Alle Rechte vorbehalten.
+              © {currentYear} HebammenCampus. Alle Rechte vorbehalten.
             </p>
             <p className="text-sm text-muted-foreground mt-2 sm:mt-0">
               Entwickelt mit Leidenschaft für die Geburtshilfe.

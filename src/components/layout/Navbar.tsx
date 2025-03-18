@@ -41,9 +41,9 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <Link 
           to="/" 
-          className="font-serif text-primary text-2xl font-bold tracking-tight transition-all"
+          className="font-serif text-primary text-2xl font-semibold tracking-normal transition-all"
         >
-          Hebammen<span className="text-accent font-normal">Finder</span>
+          Hebammen<span className="text-accent font-normal">Campus</span>
         </Link>
 
         {/* Desktop Navigation */}

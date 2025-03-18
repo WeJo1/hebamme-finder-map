@@ -12,6 +12,10 @@ interface Window {
         CIRCLE: any;
       };
       NavigationControl: any;
+      Animation: {
+        DROP: any;
+        BOUNCE: any;
+      };
     }
   }
 }

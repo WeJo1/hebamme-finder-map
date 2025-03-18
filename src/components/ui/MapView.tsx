@@ -164,7 +164,6 @@ const MapView = ({
               position: { lat: midwife.lat, lng: midwife.lng },
               map: googleMapRef.current,
               title: midwife.name,
-              animation: window.google.maps.Animation.DROP,
             });
 
             marker.addListener("click", () => {
