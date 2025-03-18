@@ -20,30 +20,30 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative pt-28 pb-20 md:pt-40 md:pb-28">
+      <section className="relative pt-32 pb-24 md:pt-48 md:pb-32">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent z-0"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <AnimatedSection animation="fade-down" className="mb-6">
+            <AnimatedSection animation="fade-down" className="mb-10">
               <span className="inline-block py-1 px-3 rounded-full text-sm font-medium bg-primary/10 text-primary">
                 Für Hebammenstudentinnen
               </span>
             </AnimatedSection>
             
-            <AnimatedSection delay={100} className="mb-8">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
-                Finden Sie die perfekte <span className="text-primary">Praxisanleiterin</span> für Ihr Studium
+            <AnimatedSection delay={100} className="mb-14">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-8">
+                Finde Deine perfekte <span className="text-primary">Praktikumsstelle</span>
               </h1>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                 Verbinden Sie sich mit erfahrenen Hebammen in Ihrer Nähe, die bereit sind, ihr Wissen weiterzugeben.
               </p>
             </AnimatedSection>
             
-            <AnimatedSection delay={200} className="mb-12">
+            <AnimatedSection delay={200} className="mb-20">
               <SearchForm onSearch={handleSearch} className="mx-auto" />
             </AnimatedSection>
             
-            <AnimatedSection delay={300} className="flex flex-wrap gap-4 justify-center">
+            <AnimatedSection delay={300} className="flex flex-wrap gap-8 justify-center">
               <div className="glass-panel px-6 py-4 flex items-center">
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-primary font-bold text-xl">
                   200+
