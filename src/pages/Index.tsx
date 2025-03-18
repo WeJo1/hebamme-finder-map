@@ -6,6 +6,7 @@ import Footer from '@/components/layout/Footer';
 import SearchForm from '@/components/ui/SearchForm';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import { useNavigate } from 'react-router-dom';
+import { Star } from 'lucide-react';
 
 const Index = () => {
   const navigate = useNavigate();
